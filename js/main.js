@@ -3,6 +3,8 @@ const contact = document.querySelector("#contact");
 const aboutContent = document.querySelector("#about-content");
 const contactContent = document.querySelector("#contact-content");
 
+const cmdInput = document.getElementById("cmd-input");
+
 about.addEventListener("click", () => {
   const aboutBox = new WinBox({
     title: "About Me",
@@ -39,4 +41,11 @@ contact.addEventListener("click", () => {
       this.setBackground("#777");
     },
   });
+});
+
+cmdInput.addEventListener("change", (event) => {
+  let cmd = event.target.value;
+  if (cmd === "github") {
+    window.location.href = "github url";
+  }
 });
