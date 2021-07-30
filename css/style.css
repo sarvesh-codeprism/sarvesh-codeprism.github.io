@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: "Source Code Pro", monospace;
   background-color: #333;
   color: #ccc;
   font-size: 18px;
@@ -30,6 +30,7 @@ h2 {
 }
 
 h3 {
+  font-family: "Source Code Pro", monospace;
   margin-bottom: 10px;
 }
 
@@ -39,6 +40,7 @@ ul {
 
 a {
   color: var(--text-color);
+  font-family: "Source Code Pro", monospace;
   text-decoration: none;
 }
 
@@ -47,7 +49,7 @@ p {
 }
 
 nav {
-  width: 30%;
+  width: 50%;
 }
 
 nav ul {
@@ -69,15 +71,6 @@ nav ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.wb-body {
-  background: #111;
-  padding: 20px;
-}
-
-.hidden {
-  display: none;
 }
 
 .cursor {
