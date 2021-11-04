@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700&display=swap");
 
+@font-face {
+    src: url("../fonts/CascadiaCode.ttf");
+    font-family: "sarve-sh";
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -11,7 +16,7 @@
 }
 
 body {
-  font-family: "Source Code Pro", monospace;
+  font-family: "sarve-sh";
   background-color: #333;
   color: #ccc;
   font-size: 18px;
@@ -21,7 +26,7 @@ body {
 h1 {
   color: var(--text-color);
   font-size: 50px;
-  letter-spacing: -5px;
+  letter-spacing: 0;
   margin-bottom: 20px;
 }
 
@@ -30,7 +35,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Source Code Pro", monospace;
+  font-family: "sarve-sh";
   margin-bottom: 10px;
 }
 
@@ -40,7 +45,7 @@ ul {
 
 a {
   color: var(--text-color);
-  font-family: "Source Code Pro", monospace;
+  font-family: "sarve-sh";
   text-decoration: none;
 }
 
