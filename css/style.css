@@ -12,12 +12,12 @@
 }
 
 :root {
-  --text-color: #00aa00;
+  --text-color: #98c379;
 }
 
 body {
   font-family: "sarve-sh";
-  background-color: #333;
+  background-color: #1b2b34;
   color: #ccc;
   font-size: 18px;
   line-height: 1.6;
@@ -92,4 +92,8 @@ nav ul li {
   50% {
     color: var(--text-color);
   }
+}
+
+.folder {
+  color: #649bcc;
 }
