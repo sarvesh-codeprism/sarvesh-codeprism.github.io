@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700&display=swap");
 
 @font-face {
-    src: url("../fonts/FontsFree-Net-OperatorMono-Medium.ttf");
-    font-family: "sarve-sh";
+  src: url("../fonts/FontsFree-Net-OperatorMono-Medium.ttf");
+  font-family: "sarve-sh";
 }
 
 * {
@@ -17,7 +17,7 @@
 
 body {
   font-family: "sarve-sh";
-  background-color: #1b2b34;
+  background-color: #22272e;
   color: #ccc;
   font-size: 18px;
   line-height: 1.6;
@@ -27,7 +27,7 @@ h1 {
   color: var(--text-color);
   font-size: 50px;
   letter-spacing: 0;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 h2 {
@@ -41,6 +41,8 @@ h3 {
 
 ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -57,15 +59,14 @@ nav {
   width: 50%;
 }
 
-nav ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-nav ul li {
+ul li {
   color: var(--text-color);
   cursor: pointer;
+  background-color: #649bcc1f;
+  margin: 5px 10px 5px 0px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 40%;
 }
 
 .container {
@@ -76,6 +77,8 @@ nav ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: #98c379;
+  border-width: 5px;
 }
 
 .cursor {
