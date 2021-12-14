@@ -69,6 +69,10 @@ ul li {
   width: 40%;
 }
 
+ul li:hover {
+  background-color: #649bcc3f;
+}
+
 .container {
   max-width: 600px;
   margin: auto;
