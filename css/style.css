@@ -27,7 +27,6 @@ h1 {
   color: var(--text-color);
   font-size: 50px;
   letter-spacing: 0;
-  /* margin-bottom: 20px; */
 }
 
 h2 {
@@ -39,7 +38,7 @@ h3 {
   margin-bottom: 10px;
 }
 
-ul {
+div {
   list-style-type: none;
   display: flex;
   flex-direction: column;
@@ -59,7 +58,7 @@ nav {
   width: 50%;
 }
 
-ul li {
+div a {
   color: var(--text-color);
   cursor: pointer;
   background-color: #649bcc1f;
@@ -69,7 +68,7 @@ ul li {
   width: 40%;
 }
 
-ul li:hover {
+div a:hover {
   background-color: #649bcc3f;
 }
 
